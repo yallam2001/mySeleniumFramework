@@ -10,7 +10,6 @@ A comprehensive Java-based Selenium WebDriver wrapper framework designed to simp
 - **Element State Validation** - Check visibility, clickability, presence, and selection states
 - **Advanced Browser Management** - Window/tab switching, frame handling, navigation controls
 - **Dropdown & Form Controls** - Complete support for selects, checkboxes, radio buttons
-- **JavaScript Integration** - Execute custom JS, scroll operations, element highlighting
 - **Alert & Modal Handling** - Accept, dismiss, and interact with browser alerts
 - **File Operations** - Upload files, take screenshots, manage cookies
 - **Table Data Extraction** - Extract and manipulate table data efficiently
@@ -19,7 +18,6 @@ A comprehensive Java-based Selenium WebDriver wrapper framework designed to simp
 ## 🛠️ Key Benefits
 
 - **Thread-Safe Design** - Non-static implementation for parallel test execution
-- **Comprehensive Error Handling** - Meaningful exceptions with context information
 - **Flexible Timeouts** - Customizable wait times for different scenarios
 - **Clean API** - Intuitive method names following standard conventions
 - **Extensive Documentation** - Well-documented methods with usage examples
@@ -39,7 +37,6 @@ framework.sendKeys(By.name("username"), "testuser");
 // Advanced operations
 framework.selectByVisibleText(By.id("dropdown"), "Option 1");
 framework.dragAndDrop(By.id("source"), By.id("target"));
-framework.takeScreenshot("test-result.png");
 ```
 
 ## 🎯 Perfect For
